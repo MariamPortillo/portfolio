@@ -1,0 +1,47 @@
+.buttons {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 38px;
+}
+.btn-primary {
+    width: 290px;
+    height: 80px;
+    border-radius:10px;
+    background: #ff1a40;
+    border: #ff1a40;
+}
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.btn-primary-content-p {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.btn-secondary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: #ffc6d6;
+    text-decoration: none;
+
+}
+
+.btn-secondary-content-p {
+    color:  #ff1a40;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+    align-content: auto;
+    text-align: center;
+    padding:24px;
+}
+
